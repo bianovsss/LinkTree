@@ -1,34 +1,40 @@
 $(function(){
  
  
-//ENTRADA
+    //ENTRADA
  
-var botoes = $(".botao");
-var titulo = $("h1");
-var subtitulo = $("#subtitulo");
-var icones = $("svg");
-var fundo = $("body");
- 
-//PROCESSAMENTO
-
-titulo.click(()=>{
+    var botoes = $(".botao");
+    var titulo = $("h1");
+    var subtitulo = $("#subtitulo");
+    var icones = $("svg");
+    var fundo = $("body");
+    var botao_modoEscuro = $("#modoEscuro");
     
-    botoes.css("background-color","white");
+    var modoEscuro = false
 
-});
+    //PROCESSAMENTO
 
-titulo.dblclick(()=>{
+    botao_modoEscuro.click(()=>{
+        
+        if (modoEscuro == false ){
+           
+            botoes.css("background-color","white");
+            botoes.css("color","black");
 
-    fundo.html("<h1> Alterado pelo JS </h1>");
+            modoEscuro = true 
+            
+        }else{
 
-});
+            botoes.css("background-color","#303237");
+            botoes.css("color","white");
 
-subtitulo.click(()=>{
+            modoEscuro = false
+        }
 
-    icones.css("fill, black");
+    });
 
-});
-    
+
+
 
     //SAIDA
  

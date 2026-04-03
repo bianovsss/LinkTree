@@ -3,7 +3,7 @@
 body{
    
     background-image: url("../Recursos/IMG/download.avif");
-    background-size: 2000px ;
+    background-size: 100% ;
  
     display: flex;
     flex-direction: column;
@@ -43,13 +43,23 @@ h1{
  
  
 h2{
-    font-size: 35px;
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+ 
+    margin: 0px 0px 10px 0px;
+}
+
+h3{
+    font-size: 30px;
     font-family: "Poppins", sans-serif;
     font-weight: 250;
     font-style: normal;
  
     margin: 0px 0px 10px 0px;
 }
+
 
 
  
@@ -111,10 +121,19 @@ margin: 10px;
  
 svg:hover{
  
-    fill:#8c4c6c;
+    fill:#303237;
     cursor: pointer;
  
     transform: scale(1.2);
  
  
-    }
+}
+
+#modoEscuro{
+
+     position: absolute;
+     top:2%;
+     right: 10px;
+
+}
+
