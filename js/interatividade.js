@@ -9,6 +9,9 @@ $(function(){
     var icones = $("svg");
     var fundo = $("body");
     var botao_modoEscuro = $("#modoEscuro");
+    var terceiro_titulo = $("h3");
+    
+    
     
     var modoEscuro = false
 
@@ -20,6 +23,13 @@ $(function(){
            
             botoes.css("background-color","white");
             botoes.css("color","black");
+
+            fundo.css("background-image","url('https://i.pinimg.com/1200x/56/9c/5b/569c5b8cc6b26a46d842a16cd7ca998f.jpg')")
+            titulo.css("color","#944d68");
+            subtitulo.css("color" , "#944d68")
+            terceiro_titulo.css("color", "#944d68")
+            icones.css("fill", "#944d68")
+            
 
             modoEscuro = true 
             
