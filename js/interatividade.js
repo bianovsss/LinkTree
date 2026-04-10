@@ -10,6 +10,7 @@ $(function(){
     var fundo = $("body");
     var botao_modoEscuro = $("#modoEscuro");
     var terceiro_titulo = $("h3");
+
     
     
     
@@ -28,7 +29,9 @@ $(function(){
             titulo.css("color","#944d68");
             subtitulo.css("color" , "#944d68")
             terceiro_titulo.css("color", "#944d68")
-            icones.css("fill", "#944d68")
+            icones.css("fill", "white")
+            
+            
             
 
             modoEscuro = true 
@@ -37,6 +40,12 @@ $(function(){
 
             botoes.css("background-color","#303237");
             botoes.css("color","white");
+            fundo.css("background-image","url('https://i.pinimg.com/736x/61/6d/e3/616de3487634a7b0c0db672bcfc476b9.jpg')")
+            titulo.css("color","white");
+            subtitulo.css("color" , "white")
+            terceiro_titulo.css("color", "white")
+            icones.css("fill", "white")
+            
 
             modoEscuro = false
         }
