@@ -18,7 +18,7 @@ width: 200px;
 height: 200px;
  
 border-radius: 200px;
-border:10px double #8c4c6c; /*Engloba todos os de cima*/
+border:5px solid #8c4c6c; /*Engloba todos os de cima*/
  
 box-shadow: 10px 5px 20px rgba(0, 0, 0, 3);
  

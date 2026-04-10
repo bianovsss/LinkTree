@@ -22,8 +22,8 @@ $(function(){
         
         if (modoEscuro == false ){
            
-            botoes.css("background-color","white");
-            botoes.css("color","black");
+            botoes.css("background-color","#faefec");
+            botoes.css("color","#303237");
 
             fundo.css("background-image","url('https://i.pinimg.com/1200x/56/9c/5b/569c5b8cc6b26a46d842a16cd7ca998f.jpg')")
             titulo.css("color","#944d68");
